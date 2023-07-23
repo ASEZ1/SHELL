@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
+
 char *custom_strcpy(char *dest, const char *src) {
     char *p = dest;
     while ((*p++ = *src++)) {}
